@@ -1,0 +1,253 @@
+body {
+    background: #e7bef1
+}
+.encabezado-principal {
+    background-color: #bd75ab;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
+.encabezado-principal h1,
+.encabezado-principal img {
+    font-family: 'Times New Roman';
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 20px 5px 10px;
+    border-radius: 15px;
+}
+.encabezado-principal img{
+    width: 80px;
+    height: 80px;
+}
+.container-fluid{
+    padding: 20px;
+}
+.container-fluid h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: darkslategray;
+    margin: 0px 0px 20px 0px;
+}
+.container-fluid .parrafos{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+a {
+    padding: 0px 15px;
+}
+i{
+    color: #ffffff;
+    font-size: 20px;
+}
+/* Icons Social */
+.bi-facebook {
+    color: #345fbd;
+}
+.bi-facebook:hover {
+    border: 1px;
+    padding: 5px;
+    background: #345fdb;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.bi-twitter {
+    color: #00ffff;
+}
+.bi-twitter:hover {
+    border: 1px;
+    padding: 5px;
+    background: #00ffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.bi-youtube {
+    color: #ff0000;
+}
+.bi-youtube:hover {
+    border: 1px;
+    padding: 5px;
+    background: #ff0000;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.bi-whatsapp {
+    color: #1ba71b;
+}
+.bi-whatsapp:hover {
+    border: 1px;
+    padding: 5px;
+    background: #1ba71b;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.bi-instagram {
+    color: #d6128e;
+}
+.bi-instagram:hover {
+    order: 1px;
+    padding: 5px;
+    background:linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C);
+    border-radius: 10px;
+    color:#ffffff;
+}
+/* Formulario */
+#formulario {
+    background-color: #95fadc;
+    margin: 18px;
+    padding: 15px;
+    font-weight: bold;
+}
+form .row {
+    margin: 20px;
+}
+.container figure img {
+    width: 100%;
+    height: 300px;
+    margin: 15px;
+}
+.container .row  .col-3 {
+    text-align: center;
+    font-weight: bold;
+}
+.col-3 i{
+    font-size: 3rem;
+    color: #0e4eda;
+}
+#row-1 {
+    padding: 8px 0px 25px 0px;;
+}
+#row-2 h3 {
+    text-align: center;
+    font-style: italic;
+    padding: 0px 0px 18px 0px;
+}
+#row-2 p {
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/* Galeria */
+.zap-estilo{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    text-shadow: 0px 1px 0px #1597bb;
+    cursor: context-menu;
+}
+
+.contenedor{
+    
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    width: 100%;
+    justify-content: center;
+    
+    
+    
+}
+.contenedor figure{
+    cursor: pointer;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 1px 20px #1597bb;
+    margin: 20px 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11,103,123, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover>.capa{
+    
+    opacity: 1;
+    visibility: visible;
+
+
+}
+.contenedor figure:hover>.capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    
+
+}
+.contenedor figure:hover>.capa img{
+    
+    transform: scale(1.3);
+   
+
+}
+.contenedor figure:hover>.capa p{
+    color: #fff;
+    
+    
+    }
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor figure.capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+
+}
+
+/*SOCIAL BAR*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box ;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 38%;
+    z-index: 2000;
+
+}
+
+.social ul {
+    list-style: none;
+}
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background-color : white;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 0px 15% 15% 0px;
+}
+.social ul li .icon-facebook {background:#3b5998;}
+.social ul li .icon-instagram {background:#3f729b ;}
+.social ul li .icon-mail4 {background:red;}
+
+.social ul li :hover{
+    padding:15px 30px;
+    border-radius: 0px 20% 20% 0px;
+}
+/*fin de css de galeria*/
