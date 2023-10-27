@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 38%;
+    z-index: 2000;
+
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background-color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 0px 15% 15% 0px;
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-instagram {
+    background: #3f729b;
+}
+
+.social ul li .icon-mail4 {
+    background: red;
+}
+
+.social ul li :hover {
+    padding: 15px 30px;
+    border-radius: 0px 20% 20% 0px;
+}
