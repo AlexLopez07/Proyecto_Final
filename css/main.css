@@ -99,3 +99,7 @@ form .row {
     cursor: context-menu;
     color: white;
 }
+#copy{
+    font-weight: bold;
+    font-style: italic;
+}
